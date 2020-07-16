@@ -22,31 +22,31 @@ class MarienkapelleSkill(MycroftSkill):
 
     @intent_file_handler('marienkapelle.building.style.intent')
     def handle_marienkapelle_style(self, message):
-        self.speak_dialog('marienkapelle.building.style.dialog')
+        self.speak_dialog('marienkapelle.building.style')
 
     @intent_file_handler('marienkapelle.how.old.intent')
     def handle_marienkapelle_how_old(self, message):
-        self.speak_dialog('marienkapelle.built.year.dialog')
+        self.speak_dialog('marienkapelle.built.year')
 
     @intent_file_handler('marienkapelle.reconstruction.intent')
     def handle_marienkapelle_rebuilt(self, message):
-        self.speak_dialog('marienkapelle.rebuilt.in.dialog')
+        self.speak_dialog('marienkapelle.rebuilt.in')
 
     @intent_file_handler('marienkapelle.tell.facts.intent')
     def handle_marienkapelle_facts(self, message):
-        self.speak_dialog('marienkapelle.facts.dialog')
+        self.speak_dialog('marienkapelle.facts')
 
     @intent_file_handler('marienkapelle.what.is.intent')
     def handle_marienkapelle_what_is(self, message):
-        self.speak_dialog('marienkapelle.this.is.dialog')
+        self.speak_dialog('marienkapelle.this.is')
 
     @intent_file_handler('marienkapelle.when.market.open.intent')
     def handle_marienkapelle_market_open(self, message):
-        self.speak_dialog('marienkapelle.market.time.is.dialog')
+        self.speak_dialog('marienkapelle.market.time.is')
 
     @intent_file_handler('marienkapelle.which.religion.intent')
     def handle_marienkapelle_which_religion(self, message):
-        self.speak_dialog('marienkapelle.is.religion.dialog')
+        self.speak_dialog('marienkapelle.is.religion')
 
 
 
