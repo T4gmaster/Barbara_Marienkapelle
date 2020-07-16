@@ -77,5 +77,5 @@ class MarienkapelleSkill(MycroftSkill):
 
 
 def create_skill():
-    return BarbaraSkill()
+    return MarienkapelleSkill()
 
